@@ -2,8 +2,8 @@
 
 > **Reference document for developing server-rendered Django projects.**
 > The guide is reusable for any Django project: it contains no references to a specific domain.
-> It is inspired by the general ideas and conventions of the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide)
-> by HackSoft, independently written for projects that use **Django templates** (class-based views + forms)
+> It is adapted from the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide) by HackSoft
+> (MIT License), adjusted for projects that use **Django templates** (class-based views + forms)
 > instead of an API (DRF).
 >
 > Status: **v1.0** – reference document for the current project and future ones.
@@ -1164,7 +1164,7 @@ Two notes:
 ## 9. Errors and exceptions
 
 Error handling depends a lot on the project: here are the general guidelines
-(written for a template application, without DRF).
+(adapted to a template application, without DRF).
 
 ### 9.1 Application exception hierarchy
 
@@ -1736,13 +1736,16 @@ https://github.com/typeddjango/djangorestframework-stubs/
 
 ## Credits and license
 
-This guide is an **original work**, independently written for server-rendered Django projects.
-It is inspired by the general ideas and conventions popularized by the
-[Django Styleguide](https://github.com/HackSoftware/Django-Styleguide) by [HackSoft](https://www.hacksoft.io/)
-(MIT License) — such as the services/selectors layer and its naming conventions — but it is not a
-reproduction, translation, or adaptation of it.
+This guide is an **adaptation** of the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide)
+by [HackSoft](https://www.hacksoft.io/), used under the MIT License.
 
-- Original inspiration: https://github.com/HackSoftware/Django-Styleguide
-- This guide: Copyright (c) 2026 ptrSnake, MIT License.
+- Most of this guide is taken from the original with minimal changes: the structure, sections,
+  principles, service/selector layer, and examples follow it closely.
+- Changes made here: the guide targets server-rendered Django projects (templates + forms)
+  instead of an API, and the accompanying `pi-django` scaffolder extends it with support for
+  Django REST Framework and Django Ninja.
+- Original: https://github.com/HackSoftware/Django-Styleguide
+  (MIT License, Copyright (c) 2019 - 2025 HackSoft).
+- This adaptation: Copyright (c) 2026 ptrSnake, MIT License.
 
 MIT License full text: see [LICENSE](../LICENSE).
