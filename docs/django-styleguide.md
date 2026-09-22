@@ -2,8 +2,9 @@
 
 > **Reference document for developing server-rendered Django projects.**
 > The guide is reusable for any Django project: it contains no references to a specific domain.
-> It is inspired by the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide) by HackSoft,
-> adapted to a project that uses **Django templates** (class-based views + forms) instead of an API (DRF).
+> It is inspired by the general ideas and conventions of the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide)
+> by HackSoft, independently written for projects that use **Django templates** (class-based views + forms)
+> instead of an API (DRF).
 >
 > Status: **v1.0** – reference document for the current project and future ones.
 
@@ -1735,13 +1736,13 @@ https://github.com/typeddjango/djangorestframework-stubs/
 
 ## Credits and license
 
-This guide is an English translation and adaptation, for server-rendered Django projects,
-of the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide) by [HackSoft](https://www.hacksoft.io/).
+This guide is an **original work**, independently written for server-rendered Django projects.
+It is inspired by the general ideas and conventions popularized by the
+[Django Styleguide](https://github.com/HackSoftware/Django-Styleguide) by [HackSoft](https://www.hacksoft.io/)
+(MIT License) — such as the services/selectors layer and its naming conventions — but it is not a
+reproduction, translation, or adaptation of it.
 
-- Original: https://github.com/HackSoftware/Django-Styleguide
-- Example project used by the original guide: https://github.com/HackSoftware/Django-Styleguide-Example
-- The original styleguide and example project are released under the MIT License
-  (Copyright (c) 2019 - 2025 HackSoft).
-- This adaptation and translation: Copyright (c) 2026 ptrSnake, MIT License.
+- Original inspiration: https://github.com/HackSoftware/Django-Styleguide
+- This guide: Copyright (c) 2026 ptrSnake, MIT License.
 
 MIT License full text: see [LICENSE](../LICENSE).
