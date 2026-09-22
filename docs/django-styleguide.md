@@ -1164,7 +1164,7 @@ Two notes:
 ## 9. Errors and exceptions
 
 Error handling depends a lot on the project: here are the general guidelines
-(adapted to a template application, without DRF).
+(written for a template application, without DRF).
 
 ### 9.1 Application exception hierarchy
 
