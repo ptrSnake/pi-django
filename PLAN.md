@@ -134,8 +134,8 @@ pi-django/
 - [x] App users per i 3 framework + config/ + pyproject patch
 - [x] Test locale del tool con `pi -e .` in una directory scratch
 - [x] Verifica end-to-end dei 3 scaffold (check, migrate, tests, ruff)
-- [ ] Pubblicazione: `npm publish` (pubblico) + repo git con tag `v1.0.0`
-- [ ] README con istruzioni di installazione da npm e git
+- [x] Pubblicazione: `npm publish` (pubblico) + repo git con tag `v1.0.0`
+- [x] README con istruzioni di installazione da npm e git
 
 ## Verifica
 
