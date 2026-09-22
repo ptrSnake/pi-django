@@ -1,0 +1,17 @@
+{
+  "name": "pi-django",
+  "version": "0.1.0",
+  "description": "Pi extension that scaffolds Django projects using uv, following the STILE-DJANGO.md conventions. Ask for the framework (standard / DRF / Ninja) and Python version, and generates a base project with a ready-to-use users app.",
+  "type": "module",
+  "keywords": ["pi-package", "django", "scaffold", "uv", "djangorestframework", "ninja"],
+  "license": "MIT",
+  "files": ["extensions/", "templates/", "README.md"],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}

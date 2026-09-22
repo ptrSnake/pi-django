@@ -1,0 +1,1 @@
+# The Ninja API lives in users.api and is mounted in config/urls.py at /api/.

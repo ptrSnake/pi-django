@@ -1,0 +1,17 @@
+# Local dev dependencies (symlinks to the pi installation for the test harness)
+node_modules/
+
+# Python / scaffold artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.env
+db.sqlite3
+.pytest_cache/
+.ruff_cache/
+
+# npm
+*.tgz
+
+# OS
+.DS_Store
