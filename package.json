@@ -5,6 +5,11 @@
   "type": "module",
   "keywords": ["pi-package", "django", "scaffold", "uv", "djangorestframework", "ninja"],
   "license": "MIT",
+  "author": {
+    "name": "ptrSnake",
+    "url": "https://github.com/ptrSnake"
+  },
+  "repository": "github:ptrSnake/pi-django",
   "files": ["extensions/", "templates/", "README.md"],
   "peerDependencies": {
     "@earendil-works/pi-ai": "*",
