@@ -1,7 +1,7 @@
 [project]
 name = "__PROJECT_NAME__"
 version = "0.1.0"
-description = "Django project scaffolded with pi-django, following STILE-DJANGO.md conventions."
+description = "Django project scaffolded with pi-django, following Django Styleguide conventions."
 readme = "README.md"
 requires-python = "__REQUIRES_PYTHON__"
 dependencies = []

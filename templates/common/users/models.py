@@ -1,4 +1,4 @@
-"""Models for the users app (STILE-DJANGO.md §3)."""
+"""Models for the users app (Django Styleguide §3)."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from django.utils import timezone
 
 
 class BaseModel(models.Model):
-    """Abstract base model: UUID primary key + timestamps (STILE-DJANGO.md §3.1)."""
+    """Abstract base model: UUID primary key + timestamps (Django Styleguide §3.1)."""
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
 

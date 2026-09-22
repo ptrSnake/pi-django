@@ -1,4 +1,4 @@
-"""FilterSets for the users app (STILE-DJANGO.md §5.1)."""
+"""FilterSets for the users app (Django Styleguide §5.1)."""
 
 import django_filters
 

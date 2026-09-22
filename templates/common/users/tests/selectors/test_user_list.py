@@ -1,4 +1,4 @@
-"""Tests for the user_list selector (STILE-DJANGO.md §10)."""
+"""Tests for the user_list selector (Django Styleguide §10)."""
 
 from django.test import TestCase
 

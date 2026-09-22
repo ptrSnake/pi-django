@@ -1,4 +1,4 @@
-"""Project settings. Everything Django-specific lives here (STILE-DJANGO.md §8)."""
+"""Project settings. Everything Django-specific lives here (Django Styleguide §8)."""
 
 from __future__ import annotations
 

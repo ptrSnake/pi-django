@@ -1,4 +1,4 @@
-"""Business logic for users: services write data (STILE-DJANGO.md §4)."""
+"""Business logic for users: services write data (Django Styleguide §4)."""
 
 from django.db import transaction
 

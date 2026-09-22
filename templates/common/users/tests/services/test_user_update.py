@@ -1,4 +1,4 @@
-"""Tests for the user_update service (STILE-DJANGO.md §10.3)."""
+"""Tests for the user_update service (Django Styleguide §10.3)."""
 
 from django.test import TestCase
 

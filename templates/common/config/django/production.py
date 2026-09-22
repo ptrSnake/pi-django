@@ -1,4 +1,4 @@
-"""Production settings. Everything else lives in base.py (STILE-DJANGO.md §8)."""
+"""Production settings. Everything else lives in base.py (Django Styleguide §8)."""
 
 from .base import *  # noqa: F403
 from .base import env

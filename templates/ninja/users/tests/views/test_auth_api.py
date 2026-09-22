@@ -1,4 +1,4 @@
-"""Tests for the Ninja auth endpoints (STILE-DJANGO.md §10.4)."""
+"""Tests for the Ninja auth endpoints (Django Styleguide §10.4)."""
 
 from django.test import TestCase
 

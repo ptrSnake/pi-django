@@ -1,4 +1,4 @@
-"""Reads for users: selectors read data (STILE-DJANGO.md §5)."""
+"""Reads for users: selectors read data (Django Styleguide §5)."""
 
 from users.filters import UserFilter
 from users.models import User

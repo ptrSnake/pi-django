@@ -1,4 +1,4 @@
-"""URLs for the users app: one URL per view (STILE-DJANGO.md §7)."""
+"""URLs for the users app: one URL per view (Django Styleguide §7)."""
 
 from django.urls import include, path
 

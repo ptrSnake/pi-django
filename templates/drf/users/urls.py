@@ -1,4 +1,4 @@
-"""URLs for the users DRF API (STILE-DJANGO.md §7)."""
+"""URLs for the users DRF API (Django Styleguide §7)."""
 
 from django.urls import include, path
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView

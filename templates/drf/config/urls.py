@@ -1,4 +1,4 @@
-"""Root URL configuration (STILE-DJANGO.md §7)."""
+"""Root URL configuration (Django Styleguide §7)."""
 
 from django.contrib import admin
 from django.urls import include, path

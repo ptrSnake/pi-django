@@ -1,4 +1,4 @@
-"""Tests for the User model (STILE-DJANGO.md §3.6)."""
+"""Tests for the User model (Django Styleguide §3.6)."""
 
 from django.test import TestCase
 

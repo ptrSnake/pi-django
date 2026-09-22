@@ -1,4 +1,4 @@
-"""Factories for the users tests (STILE-DJANGO.md §10.5)."""
+"""Factories for the users tests (Django Styleguide §10.5)."""
 
 import factory
 from django.contrib.auth import get_user_model

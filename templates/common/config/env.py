@@ -1,4 +1,4 @@
-"""Env access helper (STILE-DJANGO.md §8)."""
+"""Env access helper (Django Styleguide §8)."""
 
 import environ
 

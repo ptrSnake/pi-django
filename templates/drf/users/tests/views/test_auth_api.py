@@ -1,4 +1,4 @@
-"""Tests for the DRF JWT auth endpoints (STILE-DJANGO.md §10.4)."""
+"""Tests for the DRF JWT auth endpoints (Django Styleguide §10.4)."""
 
 from django.urls import reverse
 from rest_framework import status

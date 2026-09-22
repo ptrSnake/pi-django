@@ -1,4 +1,4 @@
-"""Forms for the users app (STILE-DJANGO.md §6)."""
+"""Forms for the users app (Django Styleguide §6)."""
 
 from typing import Any
 

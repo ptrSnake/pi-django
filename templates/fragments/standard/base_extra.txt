@@ -1,4 +1,4 @@
-# Auth flows for the server-rendered users app (STILE-DJANGO.md §6).
+# Auth flows for the server-rendered users app (Django Styleguide §6).
 LOGIN_URL = "users:login"
 LOGIN_REDIRECT_URL = "users:home"
 LOGOUT_REDIRECT_URL = "users:login"

@@ -1,5 +1,5 @@
 /**
- * pi-django: scaffold Django projects following the STILE-DJANGO.md conventions.
+ * pi-django: scaffold Django projects following the Django Styleguide conventions.
  *
  * Registers:
  *  - tool `django_scaffold`: the model can call it to create a whole Django project
@@ -292,6 +292,7 @@ async function scaffoldProject(
 	}
 
 	// 2. Pin the requested Python version, then render project files on top of the uv skeleton
+	await mkdir(projectDir, { recursive: true });
 	await writeFile(join(projectDir, ".python-version"), `${pythonVersion}\n`);
 	progress("Writing project files…");
 	const files = await copyRendered(join(TEMPLATES_DIR, "common"), projectDir, ctx, fragments);
@@ -371,7 +372,7 @@ async function scaffoldProject(
 		"Next steps:",
 		...nextSteps.map((step) => `  - ${step}`),
 		"",
-		"Structure follows STILE-DJANGO.md: config/django settings package, UUID users app",
+		"Structure follows Django Styleguide: config/django settings package, UUID users app",
 		"with services/selectors/filters/tests, ruff + pytest configured in pyproject.toml.",
 	].join("\n");
 
@@ -387,7 +388,7 @@ export default function piDjangoExtension(pi: ExtensionAPI): void {
 		name: "django_scaffold",
 		label: "Django Scaffold",
 		description:
-			"Create a new Django project from scratch, initialized with uv and following the STILE-DJANGO.md conventions (config/django settings, UUID users app with auth, ruff, pytest). Asks the user which framework to use (standard / DRF / Ninja) and the Python version when they are not provided.",
+			"Create a new Django project from scratch, initialized with uv and following the Django Styleguide conventions (config/django settings, UUID users app with auth, ruff, pytest). Asks the user which framework to use (standard / DRF / Ninja) and the Python version when they are not provided.",
 		promptSnippet: "Create a new Django project from scratch with uv",
 		promptGuidelines: [
 			"Use django_scaffold when the user asks to create or initialize a new Django project, not for changes to an existing project.",
@@ -470,7 +471,7 @@ export default function piDjangoExtension(pi: ExtensionAPI): void {
 
 	pi.registerCommand("django-scaffold", {
 		description:
-			"Scaffold a new Django project with uv following STILE-DJANGO.md. Usage: /django-scaffold <project-name> [standard|drf|ninja] [python-version]",
+			"Scaffold a new Django project with uv following the Django Styleguide. Usage: /django-scaffold <project-name> [standard|drf|ninja] [python-version]",
 		handler: async (args: string, ctx: ExtensionCommandContext): Promise<void> => {
 			const parts = args.trim().split(/\s+/).filter(Boolean);
 			if (parts.length === 0) {

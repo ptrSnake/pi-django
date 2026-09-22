@@ -1,4 +1,4 @@
-"""Tests for the user_create service (STILE-DJANGO.md §10.3)."""
+"""Tests for the user_create service (Django Styleguide §10.3)."""
 
 from django.core.exceptions import ValidationError
 from django.test import TestCase
