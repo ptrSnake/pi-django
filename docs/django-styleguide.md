@@ -1730,3 +1730,18 @@ https://github.com/typeddjango/djangorestframework-stubs/
   dedicated documents (e.g. `FLOWS.md`).
 - When a section does not apply to the current project (e.g. Celery), it still applies to
   future projects that will adopt this guide.
+
+---
+
+## Credits and license
+
+This guide is an English translation and adaptation, for server-rendered Django projects,
+of the [Django Styleguide](https://github.com/HackSoftware/Django-Styleguide) by [HackSoft](https://www.hacksoft.io/).
+
+- Original: https://github.com/HackSoftware/Django-Styleguide
+- Example project used by the original guide: https://github.com/HackSoftware/Django-Styleguide-Example
+- The original styleguide and example project are released under the MIT License
+  (Copyright (c) 2019 - 2025 HackSoft).
+- This adaptation and translation: Copyright (c) 2026 ptrSnake, MIT License.
+
+MIT License full text: see [LICENSE](../LICENSE).

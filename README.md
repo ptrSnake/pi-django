@@ -168,4 +168,8 @@ cd /tmp && pi -e /path/to/pi-django -p "Create a standard django project named d
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
+
+The included [Django Style Guide](docs/django-styleguide.md) is an adaptation of the
+[Django Styleguide by HackSoft](https://github.com/HackSoftware/Django-Styleguide)
+(MIT, © 2019–2025 HackSoft); credits are listed at the end of that document.
